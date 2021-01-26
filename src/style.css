@@ -1,0 +1,122 @@
+html,body{
+    padding:0;
+    margin:0;
+  }
+  
+  #wrapper {
+    background-color:grey;
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:column;
+    width:100vw;
+    height:100vh;
+  }
+  
+  .module{
+    height:100vw;
+    display:flex;
+  }
+  
+  .green{
+    width: 100vw;
+    background-color:green;
+  }
+  .text-intro{
+    text-align: left;
+  } 
+  
+  .text-intro h1{
+    color: #0B0974;
+    font-weight: 500;
+  }
+  .text-intro p{
+    display: block;
+    width: 445px;
+  }
+  .text-intro span{
+    color: #3BDA00;
+  }
+
+  /**/
+  
+  .yellow{
+    width:100vw;
+    background-color:yellow;
+  }
+
+  .panel-text{
+    width: 60%;
+    text-align: center;
+    margin: auto;
+    transform: rotate(-90deg);
+  }
+  .panel-text p{
+    font-size: 90px;
+  }
+
+  .text-description p{
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .bg-img{
+    margin: auto;
+    width: 400px;
+    height: 500px;
+    box-shadow: 2px 2px 12px 0px;
+    background-color: #ccc; 
+    position: relative;
+  }
+
+ .icon-base{
+    position: absolute;
+    bottom: 140px;
+    right: 60px;
+  }
+  .low-bg-img{
+    width: 400px;
+    height: 200px;
+    background-color: #999393;
+    z-index: -1;
+    position: absolute;
+    bottom: 46vh;
+    left: 20vw;  
+  }
+
+  .low-bg-img .icon-simb{
+    position: absolute;
+    left: -1vw;
+    top: 4.5vh;
+  }
+
+  .low-bg-img h3{
+    font-size: 2em;
+  
+  }
+
+  .font-img{
+    width: 200px;
+    height: 150px;
+    border-top: 1px dotted #000;
+    border-bottom: 1px dotted #000;
+  }
+  
+  .purple{
+    width:100vw;
+    background-color:purple;
+  }
+  
+  .orange{
+    width:100vw;
+    background-color:purple;
+  }
+  
+  .blue{
+    width:100vw;
+    background-color:blue;
+  }
+  
+  .red{
+    width:100vw;
+    background-color:red;
+  }
