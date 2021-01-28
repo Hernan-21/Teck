@@ -63,7 +63,19 @@ html,body{
     height: 100vh;
     background-color:yellow;
     align-items: center;
+    position: relative;
   }
+
+  .time-line{
+    z-index: 9999;
+    color: var(--blue);
+    font-size: 2em;
+    font-weight: 500;
+    border-bottom: 2px solid var(--blue);
+    position: absolute;
+    bottom: 250px;
+  }
+  
 
 
   .img-f{
@@ -80,7 +92,7 @@ html,body{
     box-shadow: 2px 2px 12px 0px;
     background-color: #ccc; 
     position: relative;
-    z-index: 9999;
+    z-index: 3;
   }
   .panel-text{
     width: 60%;
@@ -111,12 +123,8 @@ html,body{
     font-size: 2em;
   
   }
-
-  .timeline{
-   display: block;
-   text-align: center;
-   display: flex;
-   justify-content: space-between;
+  .theerd-img .img-tr{
+    z-index: 1;
   }
 
   .font-img{
@@ -132,6 +140,16 @@ html,body{
     width:100vw;
     background-color:purple;
     position: relative;
+  }
+
+  .time-line-tr{
+    z-index: 9999;
+    color: var(--blue);
+    font-size: 2em;
+    font-weight: 500;
+    border-bottom: 2px solid var(--blue);
+    position: absolute;
+    bottom: 250px;
   }
 
   .titulo-cont p{
