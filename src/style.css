@@ -24,13 +24,13 @@ html,body{
     display:flex;
   }
   
-  .green{
+  .one{
     width: 100vw;
+    height: 100vh;
     background-color:green;
     align-items: center;
   }
 
- 
   .text-intro{
     text-align: left;
   } 
@@ -56,20 +56,22 @@ html,body{
 
   /**/
   
-  .yellow{
+  .two{
     width:100vw;
+    height: 100vh;
     background-color:yellow;
     align-items: center;
   }
 
 
-  .bg-img{
+  .second-img{
     margin: auto;
     width: 400px;
     height: 500px;
     box-shadow: 2px 2px 12px 0px;
     background-color: #ccc; 
     position: relative;
+    z-index: 9999;
   }
   .panel-text{
     width: 60%;
@@ -86,28 +88,17 @@ html,body{
     justify-content: flex-end;
   }
 
- .icon-base{
-    position: absolute;
-    bottom: 140px;
-    right: 60px;
-  }
-  .low-bg-img{
+  .theerd-img{
     width: 400px;
     height: 200px;
-    background-color: #999393;
-    z-index: -1;
+    z-index: 1;
     position: absolute;
-    bottom: 46vh;
-    left: 20vw;  
+    top: 5vh;
+    left: 50vw;
   }
 
-  .low-bg-img .icon-simb{
-    position: absolute;
-    left: -1vw;
-    top: 4.5vh;
-  }
 
-  .low-bg-img h3{
+  .theerd-img h3{
     font-size: 2em;
   
   }
@@ -125,8 +116,10 @@ html,body{
     border-top: 1px dotted #000;
     border-bottom: 1px dotted #000;
   }
+
+  /*theerd*/
   
-  .purple{
+  .three{
     width:100vw;
     background-color:purple;
     position: relative;
