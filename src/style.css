@@ -154,7 +154,7 @@ html,body{
     font-weight: 500;
     border-bottom: 2px solid var(--blue);
     position: absolute;
-    bottom: 250px;
+    top: 45vh;
   }
 
   .titulo-cont p{
@@ -178,19 +178,16 @@ html,body{
     /* bottom: -91vh; */
     top: 40vh;
   }
-
-  .text-intro h2{
-    color: var(--blue);
-    font-weight: 500;
-  }
   
   .orange{
     width:100vw;
+    height: 100vh;
     background-color:orange;
   }
   
   .blue{
     width:100vw;
+    height: 100vh;
     background-color:blue;
   }
   
