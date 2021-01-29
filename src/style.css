@@ -2,6 +2,10 @@
   --green:  #3BDA00;
   --blue: #0B0974;
 }
+body::-webkit-scrollbar { 
+  /* solo oculta su visualizacion */
+  display: none;
+}
 
 
 html,body{
