@@ -6,12 +6,12 @@ body::-webkit-scrollbar {
   /* solo oculta su visualizacion */
   display: none;
 }
-
-
-html,body{
-    padding:0;
+*{
+  padding:0;
     margin:0;
-  }
+    box-sizing: border-box;
+}
+
   
   #wrapper {
     background-color:grey;
