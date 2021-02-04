@@ -1,4 +1,4 @@
-gsap.set('.fromLeft', {xPercent:-50, yPercent:-50})
+gsap.set('.fromRight', {xPercent:-50, yPercent:-50})
 
 let tl = gsap.timeline({
 
@@ -6,12 +6,12 @@ let tl = gsap.timeline({
     trigger: "#sec02",
     pin:true,
     start: "center center",
-    end: "+=150%",
+    end: "+=70%",
     scrub: 1,
-    markers: true,
+    markers: false,
   },
   defaults:{duration:1, ease:'none'}
 });
-tl.from('.fromLeft',{ xPercent:180})
-tl.to('.fromLeft',{width:'100%', height: '100%'}, '+=1')
+tl.from('.fromRight',{ xPercent:180})
+tl.to('.fromRight',{width:'50vw', height: '50%'}, '+=1')
 tl.to({},{duration:1})

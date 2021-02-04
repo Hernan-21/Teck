@@ -74,7 +74,7 @@
     font-weight: 500;
     border-bottom: 2px solid var(--blue);
     position: absolute;
-    bottom: 250px;
+    bottom: 50%;
   }
   
 
@@ -176,7 +176,7 @@
     font-weight: 500;
     border-bottom: 2px solid var(--blue);
     position: absolute;
-    top: 45vh;
+    top: 25%;
     z-index: 9999;
   }
 
