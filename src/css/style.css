@@ -149,8 +149,28 @@
 
   }
 
+  .titulo h2{
+    font-size: 15em;
+    letter-spacing: 40px;
+    font-weight: 300;
+    color: var(--green);
+    text-align: center;
+    margin-top: 20%;
+    position: absolute;
+    left: -75px;
+    z-index: 1;
+  }
+
+  .three h3{
+    font-size: 7rem;
+    line-height: 100px;
+    position: absolute;
+    top: 50%;
+    transform: rotate(-70deg);
+    z-index: 10;
+  }
+
   .time-line-tr{
-    z-index: 9999;
     color: var(--blue);
     font-size: 2em;
     font-weight: 500;
@@ -160,7 +180,7 @@
     z-index: 9999;
   }
 
-  .titulo-cont p{
+ /* .titulo-cont p{
     font-family: 'Roboto Mono', monospace;
     font-size: 17em;
     font-weight: 200 italic;
@@ -178,23 +198,34 @@
     z-index: 9999;
     position: absolute;
     left: 8vw;
-    /* bottom: -91vh; */
+     bottom: -91vh; 
     top: 40vh;
-  }
+  }*/
   
-  .orange{
-    width:100vw;
+  .four{
+    width:  100vw;
     height: 100vh;
     background-color:orange;
   }
   
-  .blue{
-    width:100vw;
+  .five{
+    width:  100vw;
     height: 100vh;
     background-color:blue;
   }
   
-  .red{
-    width:100vw;
+  .six{
+    width:  100vw;
+    height: 100vh;
     background-color:red;
+  }
+  .seven{
+    width:  100vw;
+    height: 100vh;
+    background-color:skyblue;
+  }
+  .eight{
+    width:  100vw;
+    height: 100vh;
+    background-color:rgb(197, 79, 79);
   }

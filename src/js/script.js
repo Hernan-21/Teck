@@ -8,6 +8,7 @@ gsap.to(container, {
   scrollTrigger: {
     trigger: container,
     invalidateOnRefresh: true,
+    ease: "slow",
     pin: true,
     scrub: 1,
     end: () => "+=" + container.offsetWidth
