@@ -143,6 +143,9 @@
     background-color:purple;
     position: relative;
   }
+  .three img{
+    
+  }
 
   .time-line-tr{
     z-index: 9999;
@@ -152,6 +155,7 @@
     border-bottom: 2px solid var(--blue);
     position: absolute;
     top: 45vh;
+    z-index: 9999;
   }
 
   .titulo-cont p{
