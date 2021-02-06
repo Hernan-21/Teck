@@ -3,12 +3,16 @@
   --blue: #0B0974;
 }
 
+
 *{
   padding:0;
     margin:0;
     box-sizing: border-box;
 }
-
+/*
+::-webkit-scrollbar {
+  display: none;
+}*/
   
   #wrapper {
     background-color:grey;
