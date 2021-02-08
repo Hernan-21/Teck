@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="118.722" height="18.782" viewBox="0 0 118.722 18.782">
+  <g id="regla-medir" transform="translate(-923.615 -159.104)">
+    <rect id="Прямоугольник_48" data-name="Прямоугольник 48" width="93.437" height="3.458" transform="translate(1023.384 177.636) rotate(180)" fill="none" stroke="#1d1d1b" stroke-miterlimit="10" stroke-width="0.5"/>
+    <g id="regla-medir-2" data-name="regla-medir">
+      <line id="Линия_29" data-name="Линия 29" y1="8.191" transform="translate(1023.384 169.444)" fill="none" stroke="#1d1d1b" stroke-miterlimit="10" stroke-width="0.5"/>
+      <line id="Линия_30" data-name="Линия 30" y1="8.191" transform="translate(929.947 169.444)" fill="none" stroke="#1d1d1b" stroke-miterlimit="10" stroke-width="0.5"/>
+      <line id="Линия_31" data-name="Линия 31" y1="8.191" transform="translate(976.665 169.444)" fill="none" stroke="#1d1d1b" stroke-miterlimit="10" stroke-width="0.5"/>
+      <line id="Линия_32" data-name="Линия 32" y1="3.458" transform="translate(1018.712 174.178)" fill="none" stroke="#1d1d1b" stroke-miterlimit="10" stroke-width="0.5"/>
+      <line id="Линия_33" data-name="Линия 33" y1="3.458" transform="translate(1014.04 174.178)" fill="none" stroke="#1d1d1b" stroke-miterlimit="10" stroke-width="0.5"/>
+      <line id="Линия_34" data-name="Линия 34" y1="3.458" transform="translate(1009.369 174.178)" fill="none" stroke="#1d1d1b" stroke-miterlimit="10" stroke-width="0.5"/>
+      <line id="Линия_35" data-name="Линия 35" y1="3.458" transform="translate(1004.697 174.178)" fill="none" stroke="#1d1d1b" stroke-miterlimit="10" stroke-width="0.5"/>
+      <line id="Линия_36" data-name="Линия 36" y1="3.458" transform="translate(1000.025 174.178)" fill="none" stroke="#1d1d1b" stroke-miterlimit="10" stroke-width="0.5"/>
+      <line id="Линия_37" data-name="Линия 37" y1="3.458" transform="translate(995.353 174.178)" fill="none" stroke="#1d1d1b" stroke-miterlimit="10" stroke-width="0.5"/>
+      <line id="Линия_38" data-name="Линия 38" y1="3.458" transform="translate(990.681 174.178)" fill="none" stroke="#1d1d1b" stroke-miterlimit="10" stroke-width="0.5"/>
+      <line id="Линия_39" data-name="Линия 39" y1="3.458" transform="translate(986.009 174.178)" fill="none" stroke="#1d1d1b" stroke-miterlimit="10" stroke-width="0.5"/>
+      <line id="Линия_40" data-name="Линия 40" y1="3.458" transform="translate(981.337 174.178)" fill="none" stroke="#1d1d1b" stroke-miterlimit="10" stroke-width="0.5"/>
+      <line id="Линия_41" data-name="Линия 41" y1="3.458" transform="translate(971.994 174.178)" fill="none" stroke="#1d1d1b" stroke-miterlimit="10" stroke-width="0.5"/>
+      <line id="Линия_42" data-name="Линия 42" y1="3.458" transform="translate(967.322 174.178)" fill="none" stroke="#1d1d1b" stroke-miterlimit="10" stroke-width="0.5"/>
+      <line id="Линия_43" data-name="Линия 43" y1="3.458" transform="translate(962.65 174.178)" fill="none" stroke="#1d1d1b" stroke-miterlimit="10" stroke-width="0.5"/>
+      <line id="Линия_44" data-name="Линия 44" y1="3.458" transform="translate(957.978 174.178)" fill="none" stroke="#1d1d1b" stroke-miterlimit="10" stroke-width="0.5"/>
+      <line id="Линия_45" data-name="Линия 45" y1="3.458" transform="translate(953.306 174.178)" fill="none" stroke="#1d1d1b" stroke-miterlimit="10" stroke-width="0.5"/>
+      <line id="Линия_46" data-name="Линия 46" y1="3.458" transform="translate(948.634 174.178)" fill="none" stroke="#1d1d1b" stroke-miterlimit="10" stroke-width="0.5"/>
+      <line id="Линия_47" data-name="Линия 47" y1="3.458" transform="translate(943.962 174.178)" fill="none" stroke="#1d1d1b" stroke-miterlimit="10" stroke-width="0.5"/>
+      <line id="Линия_48" data-name="Линия 48" y1="3.458" transform="translate(939.29 174.178)" fill="none" stroke="#1d1d1b" stroke-miterlimit="10" stroke-width="0.5"/>
+      <line id="Линия_49" data-name="Линия 49" y1="3.458" transform="translate(934.619 174.178)" fill="none" stroke="#1d1d1b" stroke-miterlimit="10" stroke-width="0.5"/>
+      <text id="_2" data-name="2" transform="translate(1017.053 159.104)" fill="#010101" font-size="7.658" font-family="SegoeUI, Segoe UI"><tspan x="4.267" y="8">2</tspan></text>
+      <text id="_0" data-name="0" transform="translate(923.615 159.104)" fill="#010101" font-size="7.658" font-family="SegoeUI, Segoe UI"><tspan x="4.267" y="8">0</tspan></text>
+      <text id="_1" data-name="1" transform="translate(970.334 159.104)" fill="#010101" font-size="7.658" font-family="SegoeUI, Segoe UI"><tspan x="4.267" y="8">1</tspan></text>
+      <text id="cm" transform="translate(1029.338 159.104)" fill="#010101" font-size="7.658" font-family="SegoeUI, Segoe UI"><tspan x="1.264" y="8">cm</tspan></text>
+    </g>
+  </g>
+</svg>
