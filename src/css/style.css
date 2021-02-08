@@ -1,6 +1,7 @@
 :root {
-  --green:  #3BDA00;
-  --blue: #0B0974;
+  --green:  #23da94;
+  --blue: #03257a;
+  --orange: #e84e1b;
 }
 
 
@@ -71,73 +72,6 @@
     position: relative;
   }
 
-  .time-line{
-    z-index: 9999;
-    color: var(--blue);
-    font-size: 2em;
-    font-weight: 500;
-    border-bottom: 2px solid var(--blue);
-    position: absolute;
-    bottom: 50%;
-  }
-  
-
-
-  .img-f{
-    position: absolute;
-    left: 160px;
-    top: -115px;
-  }
-
-
-  .second-img{
-    margin: auto;
-    width: 400px;
-    height: 500px;
-    box-shadow: 2px 2px 12px 0px;
-    background-color: #ccc; 
-    position: relative;
-    z-index: 3;
-  }
-  .panel-text{
-    width: 60%;
-    text-align: center;
-    margin: auto;
-    transform: rotate(-90deg);
-  }
-  .panel-text p{
-    font-size: 90px;
-  }
-
-  .text-description p{
-    display: flex;
-    justify-content: flex-end;
-  }
-
-  .theerd-img{
-    width: 400px;
-    height: 200px;
-    z-index: 1;
-    position: absolute;
-    top: -20vh;
-    left: 55vw;
-  }
-
-
-  .theerd-img h3{
-    font-size: 2em;
-  
-  }
-  .theerd-img .img-tr{
-    z-index: 1;
-  }
-
-  .font-img{
-    width: 200px;
-    height: 150px;
-    border-top: 1px dotted #000;
-    border-bottom: 1px dotted #000;
-  }
 
   /*theerd*/
   
@@ -147,64 +81,6 @@
     background-color:purple;
     position: relative;
   }
-  .three div img{
-    margin-left: 0;
-    margin-top: 30px;
-
-  }
-
-  .titulo h2{
-    font-size: 15em;
-    letter-spacing: 40px;
-    font-weight: 300;
-    color: var(--green);
-    text-align: center;
-    margin-top: 20%;
-    position: absolute;
-    left: -75px;
-    z-index: 1;
-  }
-
-  .three h3{
-    font-size: 7rem;
-    line-height: 100px;
-    position: absolute;
-    top: 50%;
-    transform: rotate(-70deg);
-    z-index: 10;
-  }
-
-  .time-line-tr{
-    color: var(--blue);
-    font-size: 2em;
-    font-weight: 500;
-    border-bottom: 2px solid var(--blue);
-    position: absolute;
-    top: 25%;
-    z-index: 9999;
-  }
-
- /* .titulo-cont p{
-    font-family: 'Roboto Mono', monospace;
-    font-size: 17em;
-    font-weight: 200 italic;
-    color: var(--green);
-    z-index: 1;
-  }
-
-  .center-img{
-    width: 300px;
-    height: 100vh;
-  }
-  .center-img p{
-    transform: rotate(-80deg); 
-    font-size: 8em;
-    z-index: 9999;
-    position: absolute;
-    left: 8vw;
-     bottom: -91vh; 
-    top: 40vh;
-  }*/
   
   .four{
     width:  100vw;
