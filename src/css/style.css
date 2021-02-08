@@ -1,111 +1,131 @@
 :root {
-  --green:  #23da94;
+  --green: #23da94;
   --blue: #03257a;
   --orange: #e84e1b;
 }
 
 
-*{
-  padding:0;
-    margin:0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
+
 /*
 ::-webkit-scrollbar {
   display: none;
 }*/
-  
-  #wrapper {
-    background-color:grey;
-    display:flex;
-    flex-wrap:wrap;
-    flex-direction:column;
-    align-items: center;
-    width:100vw;
-    height:100vh;
-  }
-  
-  .module{
-    height:100vw;
-    display:flex;
-  }
-  
-  .one{
-    width: 100vw;
-    height: 100vh;
-    background-color:green;
-    align-items: center;
-  }
 
-  .text-intro{
-    text-align: left;
-  } 
+#wrapper {
+  background-color: grey;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
 
-  .text-intro h5{
-    color: var(--blue);
-    margin-left: 160px;
-    font-family: 'Open-sans', sans-serif;
-    font-weight: 400;
-  }
-  
-  .text-intro h1{
-    color: var(--blue);
-    font-weight: 500;
-  }
-  .text-intro p{
-    display: block;
-    width: 445px;
-    margin-left: 250px;
-    margin-top: 30px;
-  }
-  .text-intro span{
-    color: #3BDA00;
-  }
+.module {
+  height: 100vw;
+  display: flex;
+}
 
-  /**/
-  
-  .two{
-    width:100vw;
-    height: 100vh;
-    background-color:yellow;
-    align-items: center;
-    position: relative;
-  }
+.one {
+  width: 100vw;
+  height: 100vh;
+  background-color: green;
+  align-items: center;
+}
+
+.text-intro {
+  text-align: left;
+}
+
+.text-intro span {
+  color: var(--green);
+}
+
+.text-intro h1 {
+  color: var(--blue);
+  font-weight: 500;
+}
 
 
-  /*theerd*/
-  
-  .three{
-    width:100vw;
-    height: 100vh;
-    background-color:purple;
-    position: relative;
-  }
-  
-  .four{
-    width:  100vw;
-    height: 100vh;
-    background-color:orange;
-  }
-  
-  .five{
-    width:  100vw;
-    height: 100vh;
-    background-color:blue;
-  }
-  
-  .six{
-    width:  100vw;
-    height: 100vh;
-    background-color:red;
-  }
-  .seven{
-    width:  100vw;
-    height: 100vh;
-    background-color:skyblue;
-  }
-  .eight{
-    width:  100vw;
-    height: 100vh;
-    background-color:rgb(197, 79, 79);
-  }
+.text-intro h5 {
+  color: var(--blue);
+  margin-left: 160px;
+  font-family: 'Open-sans', sans-serif;
+  font-weight: 400;
+}
+
+
+.text-intro>p {
+  display: block;
+  width: 445px;
+  margin-left: 250px;
+  margin-top: 30px;
+}
+
+.paso .btn-tooltip {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background-color: var(--blue);
+  border: none;
+  color: white;
+  font-weight: 700;
+  line-height: 0;
+  font-size: 2rem;
+}
+
+
+/**/
+
+.two {
+  width: 100vw;
+  height: 100vh;
+  background-color: yellow;
+  align-items: center;
+  position: relative;
+}
+
+
+/*theerd*/
+
+.three {
+  width: 100vw;
+  height: 100vh;
+  background-color: purple;
+  position: relative;
+}
+
+.four {
+  width: 100vw;
+  height: 100vh;
+  background-color: orange;
+}
+
+.five {
+  width: 100vw;
+  height: 100vh;
+  background-color: blue;
+}
+
+.six {
+  width: 100vw;
+  height: 100vh;
+  background-color: red;
+}
+
+.seven {
+  width: 100vw;
+  height: 100vh;
+  background-color: skyblue;
+}
+
+.eight {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(197, 79, 79);
+}
