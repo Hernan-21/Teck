@@ -92,8 +92,10 @@
 }
 
 .tooltip-img{
-  margin-top: 20px;
+  margin-top: 50px;
 }
+
+
 
 
 
@@ -120,12 +122,30 @@
   color: var(--green);
   text-align: center;
   position: absolute;
+  top: -100px;
 }
 
 .cont-titulo img{
   position: absolute;
-  top: 32%;
+  top: 15%;
   left: 28%;
+}
+
+.periodico{
+  margin-left: 60%;
+  margin-top: -20%;
+}
+
+
+.juan{
+  position: absolute;
+  left: 330px;
+}
+
+
+.right-imagen{
+  position: absolute;
+  right: 25%;
 }
 
 
