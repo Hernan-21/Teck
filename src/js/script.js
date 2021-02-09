@@ -1,4 +1,6 @@
-gsap.registerPlugin(ScrollTrigger)
+//HORIZONTAL SCROLLING
+
+gsap.registerPlugin(ScrollTrigger);
 
 let container = document.getElementById("wrapper");
 
@@ -13,4 +15,5 @@ gsap.to(container, {
     scrub: 1,
     end: () => "+=" + container.offsetWidth
   }
-})
+});
+

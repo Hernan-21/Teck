@@ -9,12 +9,13 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-size: 14px;
 }
 
-/*
+
 ::-webkit-scrollbar {
   display: none;
-}*/
+}
 
 #wrapper {
   background-color: grey;
@@ -72,15 +73,15 @@
   width: 30px;
   height: 30px;
   background-color: var(--blue);
+  color: var(--green);
   border: none;
-  color: white;
-  font-weight: 700;
+  font-weight: 100;
   line-height: 0;
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
 
 
-/**/
+/*Second-Module*/
 
 .two {
   width: 100vw;
@@ -90,6 +91,17 @@
   position: relative;
 }
 
+.tooltip-img{
+  margin-top: 20px;
+}
+
+
+
+/* .two .tooltip-text{
+  position: absolute;
+  bottom: 15%;
+} */
+
 
 /*theerd*/
 
@@ -98,7 +110,24 @@
   height: 100vh;
   background-color: purple;
   position: relative;
+  display: flex;
+  align-items: center;
 }
+
+
+.cont-titulo h2{
+  font-size: 300px;
+  color: var(--green);
+  text-align: center;
+  position: absolute;
+}
+
+.cont-titulo img{
+  position: absolute;
+  top: 32%;
+  left: 28%;
+}
+
 
 .four {
   width: 100vw;
