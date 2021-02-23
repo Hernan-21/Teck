@@ -17,6 +17,7 @@
   display: none;
 }
 
+/* codigo para aliniamiento horizontal */
 #wrapper {
   background-color: grey;
   display: flex;
