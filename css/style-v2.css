@@ -29,7 +29,7 @@
 
   /* textos base */
 .one h1, h5,b,span{ font-weight: 200; font-size: 35px; color: #03257A;}
-.one h5{font-size: 18px;}
+.one h5{font-size: 18px; padding-left: 80px;}
 .one b{font-weight: 600;}
 .one span{color: #23DA94;}
 
