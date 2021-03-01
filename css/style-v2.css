@@ -21,10 +21,9 @@
     height: 100vh;
   } */
 
-  .module .paso{
+
+ .module{
     height: 800px;
-    display: flex;
-    align-content: center;
   }
 
   /* textos base */
@@ -33,7 +32,7 @@
 .one b{font-weight: 600;}
 .one span{color: #23DA94;}
 
-.paso .titulo{
+.titulo{
   display: inline-block;
   padding-left: calc(50% - 250px);
 }
@@ -53,10 +52,19 @@
 
 .one .infografia .date{margin-left: 90px;}
 
+.date a{
+  text-decoration: none;
+  background-color: #03257A;
+  color: #23DA94;
+  padding: 0;
+  margin: 0;
+  font-weight: 100;
+  font-size: 2.2em;
+}
+
 /* .one .infografia .date {position: relative; } */
 /* .one .infografia .date p{display: block;} */
-.one .infografia .date button {
-    /* position: absolute; */
+/* .one .infografia .date button {
     width: 25px;
     height: 25px;
     background-color: #03257A;
@@ -65,6 +73,6 @@
     font-weight: 100;
     line-height: 0;
     font-size: 4rem;
-}
+} */
 
 
