@@ -5,6 +5,10 @@
 //     })
 //   })
 
-  $('[data-toggle="tooltip"]').tooltip({
-    boundary: 'window' 
-});
+//   $('[data-toggle="tooltip"]').tooltip({
+//     boundary: 'window' 
+// });
+
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
